@@ -1,0 +1,92 @@
+.list{
+    width: 100%;
+    height: max-content;
+    background: #eaeaea;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+.local-title {
+    font-size: 25px;
+    color: #434051;
+    font-weight: 500;
+}
+
+.local-inner-list {
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+@media all and (max-width: 320px) {
+    .local-inner-list {
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .local-inner-list {
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .local-inner-list {
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 599px) {
+    .local-inner-list {
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 768px) {
+    .local-inner-list {
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 900px) {
+    .local-inner-list {
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (min-width: 901px) and (max-width: 1100px) {
+    .local-inner-list {
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media all and (min-width: 1101px) and (max-width: 1199px) {
+    .local-inner-list {
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1440px) {
+    .local-inner-list {
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media all and (min-width: 2560px) {
+
+}
+
+@media print {
+
+}

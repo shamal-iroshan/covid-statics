@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+.footer {
+    width: 100%;
+    background: #797979;
+    color: #fff;
+    padding: 5px 0;
+}
